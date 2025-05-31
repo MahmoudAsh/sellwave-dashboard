@@ -23,7 +23,7 @@ SellWave is a modern e-commerce platform designed specifically for Instagram sel
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd task-management-app
+cd sellwave-dashboard
 ```
 
 2. **Install dependencies**

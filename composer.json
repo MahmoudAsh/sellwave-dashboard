@@ -1,8 +1,8 @@
 {
-    "name": "laravel/task-management-app",
+    "name": "laravel/sellwave-dashboard",
     "type": "project",
-    "description": "Laravel Task Management Application",
-    "keywords": ["framework", "laravel", "task-management"],
+    "description": "SellWave Instagram E-commerce Dashboard",
+    "keywords": ["framework", "laravel", "ecommerce", "instagram", "dashboard"],
     "license": "MIT",
     "require": {
         "php": "^8.1",

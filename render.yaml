@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sellwave-app
+    name: sellwave-dashboard
     env: php
     plan: free
     buildCommand: |
@@ -24,7 +24,7 @@ services:
       - key: APP_URL
         fromService:
           type: web
-          name: sellwave-app
+          name: sellwave-dashboard
           property: url
       - key: LOG_CHANNEL
         value: errorlog
