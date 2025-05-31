@@ -30,6 +30,10 @@
                        class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium {{ request()->routeIs('orders.*') ? 'text-blue-600 bg-blue-50' : '' }}">
                         📋 Orders
                     </a>
+                    <a href="{{ route('tasks.index') }}" 
+                       class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium {{ request()->routeIs('tasks.*') ? 'text-blue-600 bg-blue-50' : '' }}">
+                        ✅ Tasks
+                    </a>
                     <div class="flex items-center space-x-2">
                         <a href="{{ route('products.create') }}" 
                            class="btn-primary text-sm">
@@ -38,6 +42,10 @@
                         <a href="{{ route('orders.create') }}" 
                            class="btn-secondary text-sm">
                             📝 New Order
+                        </a>
+                        <a href="{{ route('tasks.create') }}" 
+                           class="btn-secondary text-sm">
+                            ✅ New Task
                         </a>
                     </div>
                 </div>
